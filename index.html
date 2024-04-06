@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/1a1b650ad0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---head-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/log-removebg-preview.png" alt="my logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   <!--<i class="fa-regular fa-circle-xmark"></i>-->
+                </ul>
+               <!--<i class="fa-solid fa-bars"></i>-->
+            </nav>
+
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hello, I am <span>Kiptoo</span><br>from Nairobi, Kenya</h1>
+
+
+            </div>
+        </div>
+    </div>
+    <!------about me----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/background.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a tech junkie who is always curious about how things work and hope to make contributions on making the <br>work a better place using inventive technology. I look forward to collaborating with people with the same mindset.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <div class="tab-links" onclick="openTab('experience')">Education</div>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web interfaces
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 to Date</span><br>B.Sc MCS in JKUAT</li>
+                            <li><span>2021</span><br>Software development from Moringa School</li>
+                            <li><span>2020</span><br>KCSE from OBHS</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Services-->
+    <!--<div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-regular fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Nulla reiciendis, nemo quisquam neque modi distinctio dolor fuga numquam quae tempore sint
+                        earum, vero consequatur quasi sapiente quos corporis, deserunt aliquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Illum, quasi harum? Assumenda non consequatur doloremque deserunt velit praesentium obcaecati
+                        minima. Quibusdam aliquid harum illum iste tempore dicta sequi, ipsam repellendus!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Expedita repellendus, aspernatur eligendi, delectus et accusamus error eos quae exercitationem
+                        explicabo, eaque consequatur veniam aliquam. Doloremque minus praesentium animi? Culpa, quos!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!--Portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/apparel.jpg">
+                    <div class="layer">
+                        <h3>Couture Craze</h3>
+                        <p>This is an online apparel store</p>
+                        <a href="https://couturecraze.vercel.app/"><i class="fa-thin fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/safaris.jpg">
+                    <div class="layer">
+                        <h3>Silverstone Safaris</h3>
+                        <p>This is a safaris website offering game drives and accomodation</p>
+                        <a href="https://silverston.vercel.app/"><i class="fa-thin fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/hotel.jpeg">
+                    <div class="layer">
+                        <h3>4Tee's Hotel</h3>
+                        <p>This is an undeployed client website used as a marketing strategy</p>
+                        <a href="https://test-2-neon-eight.vercel.app/"><i class="fa-thin fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/carlkiptoo" class="btn">See more</a>
+        </div>
+    </div>
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-light fa-paper-plane"></i>carlosiamcarl@gmail.com</p>
+                    <p><i class="fa-regular fa-phone"></i>0703746070</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/Carlkircarl"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/c.arl.k/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="assets/CARLOS KIPTOO KIRUI.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Kiptoo </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+</html>
