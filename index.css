@@ -23,7 +23,7 @@ body {
     background-image: url(./assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
     opacity: 0.9;
     z-index: 1;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 }
 .overlay {
@@ -448,22 +448,8 @@ nav .fa-solid {
     }
 
     .header-text {
-        /* margin-top: 50%; */
+        margin-top: 50px;
         font-size: 16px;
-        /* color: white; */
-        font-family: 'Montserrat', sans-serif;
-    /* Use Montserrat font for clearer text */
-    color: #fff;
-    /* Set text color to white */
-    text-align: center;
-    /* Center align the text */
-    line-height: 1.6;
-    /* Increase line height for better readability */
-    max-width: 600px;
-    /* Limit text width for better readability on larger screens */
-    margin: 0 auto;
-    /* Center the text horizontally */
-    letter-spacing: 1px;
     }
 
     .header-text h1 {
