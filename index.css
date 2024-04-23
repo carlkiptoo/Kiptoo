@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: white ;
     color: black;
@@ -13,7 +16,7 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(./assets/nairobi.jpg);
+    background-image: url(./assets/background2.jpg);
     
 }
 
@@ -56,7 +59,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
-    color: white;
+    color: black;
     
 }
 .header-text img{
@@ -75,8 +78,8 @@ nav ul li a:hover::after{
 /*about*/
 #about{
     padding: 8px 0;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 .row{
     display: flex;
@@ -96,7 +99,7 @@ about-col-1 img{
 .subtitle{
     font-size: 60px;
     font-weight: 600;
-    color: white;
+    color: black;
 }
 .tab-titles{
     display: flex;
@@ -139,7 +142,7 @@ about-col-1 img{
 }
 
 /*---Services---*/
-/*#services{
+#services{
     padding: 30px 0;
 }
 .services-list{
@@ -149,12 +152,12 @@ about-col-1 img{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #a21515;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius:10px ;
-    transition: background 0.5s, transform 0.5s;
+    transition: transform 0.5s;
 }
 .services-list div i{
     font-size: 50px;
@@ -246,7 +249,7 @@ about-col-1 img{
     padding: 14px 50px;
     border-radius: 16px;
     text-decoration: none;
-    color: #fff;
+    color: #710d0d;
     transition: background 0.5s;
 }
 .btn:hover{
@@ -316,12 +319,15 @@ form .btn2{
     margin-top: 20px;
 }
 /*Small screen*/
-nav .fas{
+
+
+nav .fa-solid{ 
     display: none;
 }
-@media only screem and (max-width: 600px){
+@media (max-width: 477px){
+   
     #header{
-        background-image: url(assets/background.png);
+        background-image: url(assets/background2.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -330,25 +336,58 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-    nav .fas{
+    nav .fa-solid{ 
         display: block;
         font-size: 25px;
     }
     nav ul {
-        background: #ff004f;
+        background: #128fc8;
         position: fixed;
         top: 0;
-        right: 0;
+        right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
     }
     nav ul li{
         display: block;
         margin: 25px;
     }
-    nav ul .fas{
+    nav ul .fa-solid{
         position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
 
     }
+    .subtitle{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+        width: 100px;
+    }
+    .about-col-2{
+        font-size: 15px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+   .contact-left, .contact-right {
+    flex-basis: 100%;
+   }
+   .copyright {
+    font-size: 14px;
+   }
+}
+#msg{
+    color: #61b753;
+    margin-top: -40px;
+    display: block;
 }
