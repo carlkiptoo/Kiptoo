@@ -463,7 +463,7 @@ nav .fa-solid {
     /* Limit text width for better readability on larger screens */
     margin: 0 auto;
     /* Center the text horizontally */
-    letter-spacing: 100px;
+    letter-spacing: 1px;
     }
 
     .header-text h1 {
