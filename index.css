@@ -381,6 +381,13 @@ nav .fa-solid{
         cursor: pointer;
 
     }
+    #about{
+        margin-bottom: 0;
+    }
+    #services{
+        margin-top: 0px;
+        padding-top: 1px;
+    }
     .subtitle{
         font-size: 40px;
     }
@@ -410,7 +417,7 @@ nav .fa-solid{
    .copyright {
     font-size: 14px;
    }
-   .row {
+   .about {
     display: none;
    }
 }
