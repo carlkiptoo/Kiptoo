@@ -444,7 +444,7 @@ nav .fa-solid {
     #header {
         background-image: url(assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
         height: 70vh;
-        padding-bottom: 70px;
+        padding-bottom: 400px;
     }
 
     .header-text {
@@ -453,7 +453,9 @@ nav .fa-solid {
         font-size: 16px;
         
     }
-
+    .header-text p{
+        font-size: 12px;
+    }
     .header-text h1 {
         font-size: 20px;
     }
