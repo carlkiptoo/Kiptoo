@@ -79,7 +79,7 @@ nav ul li a:hover::after{
 #about{
     padding: 8px 0;
     color: black;
-    background-color: white;
+    background-color: #f0ffff;
 }
 .row{
     display: flex;
@@ -144,6 +144,7 @@ about-col-1 img{
 /*---Services---*/
 #services{
     padding: 30px 0;
+    background-color: #f0ffff;
 }
 .services-list{
     display: grid;
@@ -152,7 +153,7 @@ about-col-1 img{
     margin-top: 50px;
 }
 .services-list div{
-    background: #a21515;
+    background: #44c4e8;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -176,12 +177,13 @@ about-col-1 img{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #44c4e8;
     transform: translateY(-10px);
 }
 /*Portfolio*/
 #portfolio{
     padding: 5px 0;
+    background-color: #f0ffff;
 }
 .work-list{
     display: grid;
@@ -204,7 +206,7 @@ about-col-1 img{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#44c4e8, #9198e5);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -229,7 +231,7 @@ about-col-1 img{
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #fff;
+    background: #f0ffff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -245,17 +247,20 @@ about-col-1 img{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #44c4e8;
     padding: 14px 50px;
     border-radius: 16px;
     text-decoration: none;
     color: #710d0d;
-    transition: background 0.5s;
+    transition: 0.5s;
 }
 .btn:hover{
     background: #ff004f;
 }
 /*contact*/
+#contact {
+    background-color: #f0ffff;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -266,7 +271,7 @@ about-col-1 img{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #44c4e8;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -277,18 +282,18 @@ about-col-1 img{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #44c4e8;
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #44c4e8;
     transform: translateY(-5px);
 
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #44c4e8;
 }
 .contact-right form{
     width: 100%;
@@ -314,7 +319,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background-color: #f0ffff;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -325,7 +330,9 @@ nav .fa-solid{
     display: none;
 }
 @media (max-width: 477px){
-   
+   body{
+    background-color: #f0ffff;
+   }
     #header{
         background-image: url(assets/background2.jpg);
     }
@@ -367,6 +374,7 @@ nav .fa-solid{
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
+        width: 100%;
     }
     .about-col-1{
         margin-bottom: 30px;
