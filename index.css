@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -16,7 +16,7 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url(./assets/background2.jpg);
+    background-image: url(./assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
     opacity: 0.9;
     z-index: 1;
     
@@ -25,9 +25,17 @@ body{
 
 .container{
     padding: 10px 10%;
+    position: relative;
 }
 .container img{
     z-index: 2;
+}
+.container img{
+    z-index: 2;
+}
+.header-text{
+    position: relative;
+    z-index: 0;
 }
 nav{
     display: flex;
@@ -65,7 +73,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     font-size: 30px;
-    color: #D3D3D3;
+    color: white;
     
 }
 .header-text img{
@@ -343,7 +351,7 @@ nav .fa-solid{
     padding: 0;
    }
     #header{
-        background-image: url(assets/background2.jpg);
+        background-image: url(assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
         height: 70vh;
         
     }
