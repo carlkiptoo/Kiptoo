@@ -17,6 +17,8 @@ body{
     background-size: cover;
     background-position: center;
     background-image: url(./assets/background2.jpg);
+    opacity: 0.9;
+    z-index: 1;
     
 }
 
@@ -337,11 +339,13 @@ nav .fa-solid{
    }
     #header{
         background-image: url(assets/background2.jpg);
+        height: 70vh;
         
     }
     .header-text{
-        margin-top: 100%;
+        /* margin-top: 50%; */
         font-size: 16px;
+        /* color: white; */
     }
     .header-text h1{
         font-size: 30px;
