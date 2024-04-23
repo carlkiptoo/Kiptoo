@@ -444,17 +444,18 @@ nav .fa-solid {
     #header {
         background-image: url(assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
         height: 70vh;
-
+        padding-bottom: 40PX;
     }
 
     .header-text {
         margin-top: 50px;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         font-size: 16px;
+        
     }
 
     .header-text h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     nav .fa-solid {
