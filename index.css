@@ -503,7 +503,21 @@ nav .fa-solid {
         width: 100%;
         padding: 0;
     }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        max-width: 30%; /* Adjust the maximum width of the logo */
+    }
 
+    .header-text {
+        flex-basis: 70%; /* Adjust the width of the header text */
+        text-align: left; /* Align the header text to the left */
+        margin-top: 0; /* Remove margin top */
+        margin-bottom: 0; /* Remove margin bottom */
+    }
      #header {
         background-image: url(assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
         height: 70vh;
@@ -517,12 +531,12 @@ nav .fa-solid {
         margin: 0;
         padding: 0;
     }
-    .header-text {
+    /* .header-text {
         margin-top: 50px; 
         margin-bottom: 100px; 
         font-size: 16px;
         
-    }
+    } */
     .header-text p{
         font-size: 12px;
     }
