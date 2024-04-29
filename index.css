@@ -507,9 +507,16 @@ nav .fa-solid {
      #header {
         background-image: url(assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
         height: 70vh;
-        padding-bottom: 900px;
+        padding-bottom: 600px;
     }
-
+    #sidemenu {
+        display: flex;
+        flex-grow: 1; /* Allow the menu items to take up all available space */
+        justify-content: flex-end; /* Align menu items to the left */
+        list-style-type: none; /* Remove bullet points */
+        margin: 0;
+        padding: 0;
+    }
     .header-text {
         margin-top: 50px; 
         margin-bottom: 100px; 
