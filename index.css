@@ -46,6 +46,23 @@ body {
     font-size: 20px; 
     line-height: 1.5;
 }
+#sidemenu {
+    display: flex;
+    flex-grow: 1; /* Allow the menu items to take up all available space */
+    justify-content: flex-end; /* Align menu items to the left */
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+#sidemenu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.nav-contact {
+    margin-left: auto; /* Push the "Contact Me" button to the right */
+}
+
 #btn{
     background-color: #262626;
     border: none;
@@ -368,9 +385,6 @@ nav ul li a:hover::after {
     margin: 0 auto; /* Center horizontally */
     max-width: 600px; /* Adjust the maximum width according to your layout */
 }
-.contact-left a{
-    text-decoration: none;
-}
 .contact-left {
     flex-basis: 35%;
 }
@@ -382,6 +396,25 @@ nav ul li a:hover::after {
 .contact-left p {
     margin-top: 30px;
 }
+.contact-left a {
+    display: inline-block; /* Ensures the links appear in one line */
+    color: black; /* Set the color to black */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Adjust spacing between links */
+}
+.contact-link {
+    margin-bottom: 10px; /* Adjust the spacing between email and phone links */
+}
+
+.contact-link a {
+    display: inline-block; /* Ensure links appear in one line */
+    color: black; /* Set the color to black */
+    text-decoration: none; /* Remove underline */
+}
+.contact-link a:hover {
+    color: red; /* Change the color when hovered */
+}
+
 
 .contact-left p i {
     color: #44c4e8;
@@ -460,15 +493,15 @@ nav .fa-solid {
         padding: 0;
     }
 
-    #header {
+     #header {
         background-image: url(assets/venti-views-G16PnHWOMRQ-unsplash.jpg);
         height: 70vh;
         padding-bottom: 400px;
     }
 
     .header-text {
-        margin-top: 50px;
-        /* margin-bottom: 100px; */
+        margin-top: 50px; 
+        margin-bottom: 100px; 
         font-size: 16px;
         
     }
@@ -512,7 +545,7 @@ nav .fa-solid {
         left: 25px;
         cursor: pointer;
 
-    }
+    } */
 
     /* #about {
         margin-bottom: 0;
@@ -571,4 +604,9 @@ nav .fa-solid {
     color: #61b753;
     margin-top: -40px;
     display: block;
+}
+@media (max-width: 768px) {
+    #sidemenu {
+        display: none; /* Hide the menu on mobile */
+    }
 }
