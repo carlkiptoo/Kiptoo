@@ -455,6 +455,11 @@ nav ul li a:hover::after {
     display: inline-block;
     background: #e09132;
     color: #424530;
+    
+}
+.btn.btn2 {
+    padding: 10px 30px; /* Adjust padding to reduce button size */
+    font-size: 14px; /* Adjust font size */
 }
 
 .contact-right form {
