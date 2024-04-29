@@ -282,7 +282,9 @@ nav ul li a:hover::after {
     margin-top: 50px;
 
 }
-
+.sub-title {
+   text-align: center;
+}
 .work {
     border-radius: 10px;
     position: relative;
@@ -474,6 +476,11 @@ nav .fa-solid {
         display: block;
         font-size: 25px;
     }
+    .containerAbout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     nav ul {
         background: #128fc8;
@@ -500,38 +507,38 @@ nav .fa-solid {
 
     }
 
-    #about {
+    /* #about {
         margin-bottom: 0;
-    }
-
+    } */
+/* 
     #services {
         margin-top: 0px;
         padding-top: 1px;
-    }
+    } */
 
     .subtitle {
         font-size: 40px;
     }
 
-    /* .about-col-1,
+     .about-col-1,
     .about-col-2 {
         flex-basis: 100%;
         width: 100%;
-    } */
+    } 
 
-    /* .about-col-1 {
+     .about-col-1 {
         margin-bottom: 30px;
         width: 100px;
-    } */
+    } 
 
-    /* .about-col-1 img {
+ /* .about-col-1 img {
         display: flex;
         justify-content: center;
         align-items: center;
-    } */
+    } */ */
 
     .about-col-2 {
-        font-size: 15px;
+        font-size: 150px;
     }
 
     .tab-links {
