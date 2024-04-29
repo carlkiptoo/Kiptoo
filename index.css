@@ -363,7 +363,14 @@ nav ul li a:hover::after {
 #contact {
     background-color: #f0ffff;
 }
-
+.contact-left {
+    text-align: center; /* Center text content */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 600px; /* Adjust the maximum width according to your layout */
+}
+.contact-left a{
+    text-decoration: none;
+}
 .contact-left {
     flex-basis: 35%;
 }
