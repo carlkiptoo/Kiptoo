@@ -324,6 +324,44 @@ nav ul li a:hover::after {
     display: block;
     transition: transform 0.5s;
 }
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffefcd;
+}
+.experience-details {
+    display: flex;
+    flex-direction: row; /* Align items in a column */
+    align-items: center; /* Center items horizontally within the column */
+    gap: 20px;
+}
+.details-container {
+    margin-right: 20px; /* Add margin to the right of each container */
+}
+
+.details-container:last-child {
+    margin-right: 0; /* Remove margin from the last container to prevent extra space */
+}
+.project-img{
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+}
+.project-title {
+    margin-bottom: 1px; /* Adjust the margin bottom */
+}
+
+.btn-container {
+    margin-top: 1px; /* Adjust the margin top */
+}
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
 
 .layer {
     width: 100%;
@@ -369,7 +407,19 @@ nav ul li a:hover::after {
 .work:hover .layer {
     height: 100%;
 }
-
+.project-btn{
+    display: block;
+    margin-right: 15px;
+    /* margin: 50px auto; */
+    width: fit-content;
+    border: 1px solid;
+    padding: 14px 50px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #424530;
+    transition: 0.5s;
+    cursor: pointer;
+}
 .btn {
     display: block;
     margin: 50px auto;
@@ -656,5 +706,21 @@ nav .fa-solid {
 
     .work:hover .layer {
         height: 100%;
+    }
+}
+@media only screen and (max-width: 844px) {
+    .experience-details {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        align-items: center; /* Center items vertically */
+    }
+
+    .details-container {
+        margin-right: 0; /* Remove right margin for smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing between items in column layout */
+    }
+    .project-img{
+        width: 300px;
+        height: 400px;
+        border-radius: 40px;
     }
 }
