@@ -737,7 +737,7 @@ nav .fa-solid {
         border-radius: 40px;
     }
     #hero {
-        background-image: url(Assets/button.png);
+        background-image: url(Assets/button.png) !important;
         background-color: transparent;
         color: #ffefcd;
         border: 0;
