@@ -738,7 +738,7 @@ nav .fa-solid {
     }
     #hero {
         background-image: url(Assets/button.png) !important;
-        background-color: transparent;
+        background-color: transparent !important;
         color: #ffefcd;
         border: 0;
         padding: 7px 18px 3px 14px;
