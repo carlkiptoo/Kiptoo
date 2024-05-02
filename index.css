@@ -569,6 +569,8 @@ nav .fa-solid {
         width: 100%;
         padding: 0;
     }
+
+    
     nav {
         display: flex;
         justify-content: space-between;
@@ -620,7 +622,7 @@ nav .fa-solid {
         justify-content: center;
     }
 
-    nav ul {
+    /* nav ul {
         background: #128fc8;
         position: fixed;
         top: 0;
@@ -630,7 +632,7 @@ nav .fa-solid {
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-    }
+    } */
 
     nav ul li {
         display: block;
