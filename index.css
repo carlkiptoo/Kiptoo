@@ -34,6 +34,10 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity by changing the last value (0.3 is 30% opacity) */
 }
+#btnn{
+    text-decoration: none;
+    color: black;
+}
 
 .header-text {
     color: #8de; /* Set text color to white */
